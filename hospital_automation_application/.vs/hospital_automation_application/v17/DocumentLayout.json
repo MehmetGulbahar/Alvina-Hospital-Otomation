@@ -1,0 +1,338 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|c:\\users\\mhmet\\onedrive\\masa\u00FCst\u00FC\\c#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\informationupdatepatientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\informationupdatepatientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|c:\\users\\mhmet\\onedrive\\masa\u00FCst\u00FC\\c#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\informationupdatepatientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\informationupdatepatientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\informationupdatedoctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\informationupdatedoctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|c:\\users\\mhmet\\onedrive\\masa\u00FCst\u00FC\\c#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\patientdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\patientdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\doctorloginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\doctorloginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\doctordetailpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\doctordetailpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\announcementspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\announcementspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\secretaryloginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\secretaryloginpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\patientregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\patientregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\patientdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\patientdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\patientloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\patientloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\patientloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\patientloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\doctorpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\doctorpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\secretarydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\secretarydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\secretarydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\secretarydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\branchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\branchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\appointmentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C825E7EB-E647-49A6-9B99-8D20E5B2D751}|hospital_automation_application\\hospital_automation_application.csproj|solutionrelative:hospital_automation_application\\appointmentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InformationUpdatePatientForm.cs",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\InformationUpdatePatientForm.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\InformationUpdatePatientForm.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\InformationUpdatePatientForm.cs",
+              "RelativeToolTip": "hospital_automation_application\\InformationUpdatePatientForm.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAewDIAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T18:08:40.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InformationUpdatePatientForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\InformationUpdatePatientForm.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\InformationUpdatePatientForm.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\InformationUpdatePatientForm.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\InformationUpdatePatientForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T18:08:35.705Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientDetail.cs",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\PatientDetail.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\PatientDetail.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\PatientDetail.cs",
+              "RelativeToolTip": "hospital_automation_application\\PatientDetail.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAIAwwDsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T10:53:55.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientLoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\PatientLoginForm.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\PatientLoginForm.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\PatientLoginForm.cs",
+              "RelativeToolTip": "hospital_automation_application\\PatientLoginForm.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAywB0AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:42:20.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PatientLoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\PatientLoginForm.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\PatientLoginForm.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\PatientLoginForm.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\PatientLoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:40:39.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPage.cs",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\MainPage.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\MainPage.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\MainPage.cs",
+              "RelativeToolTip": "hospital_automation_application\\MainPage.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA3wCUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:32:50.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\DatabaseConnection.cs",
+              "RelativeToolTip": "hospital_automation_application\\DatabaseConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:11:55.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SecretaryDetail.cs",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\SecretaryDetail.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\SecretaryDetail.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\SecretaryDetail.cs",
+              "RelativeToolTip": "hospital_automation_application\\SecretaryDetail.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAvwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T07:14:19.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppointmentList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\AppointmentList.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\AppointmentList.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\AppointmentList.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\AppointmentList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T07:14:09.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BranchForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\BranchForm.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\BranchForm.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\BranchForm.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\BranchForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T06:47:28.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DoctorPanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\DoctorPanel.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\DoctorPanel.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\DoctorPanel.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\DoctorPanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T20:47:09.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SecretaryDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\SecretaryDetail.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\SecretaryDetail.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\SecretaryDetail.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\SecretaryDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T20:06:25.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SecretaryLoginPanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\SecretaryLoginPanel.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\SecretaryLoginPanel.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\SecretaryLoginPanel.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\SecretaryLoginPanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T18:42:45.433Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnnouncementsPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\AnnouncementsPage.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\AnnouncementsPage.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\AnnouncementsPage.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\AnnouncementsPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T18:32:01.145Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InformationUpdateDoctorForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\InformationUpdateDoctorForm.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\InformationUpdateDoctorForm.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\InformationUpdateDoctorForm.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\InformationUpdateDoctorForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T18:26:15.604Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorDetailPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\DoctorDetailPage.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\DoctorDetailPage.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\DoctorDetailPage.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\DoctorDetailPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T17:51:22.133Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoctorLoginPanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\DoctorLoginPanel.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\DoctorLoginPanel.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\DoctorLoginPanel.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\DoctorLoginPanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T17:45:15.932Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PatientDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\PatientDetail.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\PatientDetail.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\PatientDetail.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\PatientDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:40:17.937Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientRegistrationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\PatientRegistrationForm.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\PatientRegistrationForm.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\PatientRegistrationForm.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\PatientRegistrationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:14:12.179Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\MainPage.cs",
+              "RelativeDocumentMoniker": "hospital_automation_application\\MainPage.cs",
+              "ToolTip": "C:\\Users\\mhmet\\OneDrive\\Masa\u00FCst\u00FC\\C#\\tool_learning\\hospital_automation_application\\hospital_automation_application\\MainPage.cs [Design]",
+              "RelativeToolTip": "hospital_automation_application\\MainPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T14:21:56.652Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
