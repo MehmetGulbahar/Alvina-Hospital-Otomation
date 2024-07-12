@@ -63,7 +63,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("JetBrains Mono NL ExtraBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label7.Location = new System.Drawing.Point(304, 9);
+            this.label7.Location = new System.Drawing.Point(446, 9);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(223, 36);
             this.label7.TabIndex = 2;
@@ -86,13 +86,13 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(-4, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(903, 54);
+            this.panel1.Size = new System.Drawing.Size(1200, 54);
             this.panel1.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(70, 66);
+            this.label1.Location = new System.Drawing.Point(67, 76);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 23);
             this.label1.TabIndex = 7;
@@ -122,41 +122,44 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(148, 259);
+            this.buttonAdd.Location = new System.Drawing.Point(145, 269);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(92, 30);
             this.buttonAdd.TabIndex = 16;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.Location = new System.Drawing.Point(249, 259);
+            this.buttonUpdate.Location = new System.Drawing.Point(246, 269);
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(84, 30);
             this.buttonUpdate.TabIndex = 18;
             this.buttonUpdate.Text = "Update";
             this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
             // textBoxPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(148, 214);
+            this.textBoxPassword.Location = new System.Drawing.Point(145, 224);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(185, 29);
             this.textBoxPassword.TabIndex = 15;
             // 
             // buttonDelete
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(183, 295);
+            this.buttonDelete.Location = new System.Drawing.Point(180, 305);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(121, 30);
             this.buttonDelete.TabIndex = 17;
             this.buttonDelete.Text = "Delete";
             this.buttonDelete.UseVisualStyleBackColor = true;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // maskedTextBoxIdentityNum
             // 
-            this.maskedTextBoxIdentityNum.Location = new System.Drawing.Point(148, 179);
+            this.maskedTextBoxIdentityNum.Location = new System.Drawing.Point(145, 187);
             this.maskedTextBoxIdentityNum.Name = "maskedTextBoxIdentityNum";
             this.maskedTextBoxIdentityNum.Size = new System.Drawing.Size(185, 29);
             this.maskedTextBoxIdentityNum.TabIndex = 14;
@@ -164,21 +167,21 @@
             // comboBoxBranch
             // 
             this.comboBoxBranch.FormattingEnabled = true;
-            this.comboBoxBranch.Location = new System.Drawing.Point(148, 140);
+            this.comboBoxBranch.Location = new System.Drawing.Point(145, 149);
             this.comboBoxBranch.Name = "comboBoxBranch";
             this.comboBoxBranch.Size = new System.Drawing.Size(185, 31);
             this.comboBoxBranch.TabIndex = 13;
             // 
             // textBoxSurname
             // 
-            this.textBoxSurname.Location = new System.Drawing.Point(148, 104);
+            this.textBoxSurname.Location = new System.Drawing.Point(145, 114);
             this.textBoxSurname.Name = "textBoxSurname";
             this.textBoxSurname.Size = new System.Drawing.Size(185, 29);
             this.textBoxSurname.TabIndex = 12;
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(148, 66);
+            this.textBoxName.Location = new System.Drawing.Point(145, 79);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(185, 29);
             this.textBoxName.TabIndex = 11;
@@ -186,7 +189,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 105);
+            this.label2.Location = new System.Drawing.Point(41, 115);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 23);
             this.label2.TabIndex = 7;
@@ -195,7 +198,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 210);
+            this.label5.Location = new System.Drawing.Point(37, 220);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(102, 23);
             this.label5.TabIndex = 10;
@@ -204,7 +207,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 176);
+            this.label4.Location = new System.Drawing.Point(3, 186);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(136, 23);
             this.label4.TabIndex = 9;
@@ -213,7 +216,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(60, 142);
+            this.label3.Location = new System.Drawing.Point(57, 152);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 23);
             this.label3.TabIndex = 8;
@@ -224,7 +227,7 @@
             this.groupBox2.Controls.Add(this.dataGridView1);
             this.groupBox2.Location = new System.Drawing.Point(430, 98);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(458, 438);
+            this.groupBox2.Size = new System.Drawing.Size(751, 438);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Doctors";
@@ -236,15 +239,16 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 25);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(452, 410);
+            this.dataGridView1.Size = new System.Drawing.Size(745, 410);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Lucida Calligraphy", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label6.Location = new System.Drawing.Point(298, 2);
+            this.label6.Location = new System.Drawing.Point(448, 2);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(320, 20);
             this.label6.TabIndex = 3;
@@ -256,7 +260,7 @@
             this.panel2.Controls.Add(this.label6);
             this.panel2.Location = new System.Drawing.Point(-4, 567);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(903, 25);
+            this.panel2.Size = new System.Drawing.Size(1200, 25);
             this.panel2.TabIndex = 10;
             // 
             // DoctorPanel
@@ -265,7 +269,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Teal;
-            this.ClientSize = new System.Drawing.Size(900, 592);
+            this.ClientSize = new System.Drawing.Size(1193, 592);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -273,7 +277,7 @@
             this.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.MinimizeBox = false;
+            this.MaximizeBox = false;
             this.Name = "DoctorPanel";
             this.Text = "Doctor Panel";
             this.Load += new System.EventHandler(this.DoctorPanel_Load);

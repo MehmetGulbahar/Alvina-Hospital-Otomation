@@ -31,6 +31,7 @@ namespace hospital_automation_application
             connection.connection().Close();
             MessageBox.Show("Patient Registiration Successfull!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-       
+
+      
     }
 }

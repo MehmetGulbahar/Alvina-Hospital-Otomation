@@ -36,6 +36,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBoxAppointmentId = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.buttonAppointment = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.richTextBoxComplaint = new System.Windows.Forms.RichTextBox();
@@ -52,8 +54,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBoxAppointmentId = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -151,6 +151,38 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Appointment Panel";
+            // 
+            // comboBoxAppointmentId
+            // 
+            this.comboBoxAppointmentId.FormattingEnabled = true;
+            this.comboBoxAppointmentId.Items.AddRange(new object[] {
+            "Emergency Department",
+            "Surgery Department",
+            "Outpatient Department",
+            "Inpatient Department",
+            "Intensive Care Unit (ICU)",
+            "Cardiology Department",
+            "Neurology Department",
+            "Psychiatry Department",
+            "Radiology Department",
+            "Laboratory Department",
+            "Pharmacy Department",
+            "Rehabilitation Departmen"});
+            this.comboBoxAppointmentId.Location = new System.Drawing.Point(124, 45);
+            this.comboBoxAppointmentId.Name = "comboBoxAppointmentId";
+            this.comboBoxAppointmentId.Size = new System.Drawing.Size(258, 33);
+            this.comboBoxAppointmentId.TabIndex = 12;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label8.Location = new System.Drawing.Point(74, 50);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(34, 23);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Id :";
             // 
             // buttonAppointment
             // 
@@ -321,38 +353,6 @@
             this.label6.Size = new System.Drawing.Size(320, 20);
             this.label6.TabIndex = 3;
             this.label6.Text = "All rights reserved by Alvina Hospital";
-            // 
-            // comboBoxAppointmentId
-            // 
-            this.comboBoxAppointmentId.FormattingEnabled = true;
-            this.comboBoxAppointmentId.Items.AddRange(new object[] {
-            "Emergency Department",
-            "Surgery Department",
-            "Outpatient Department",
-            "Inpatient Department",
-            "Intensive Care Unit (ICU)",
-            "Cardiology Department",
-            "Neurology Department",
-            "Psychiatry Department",
-            "Radiology Department",
-            "Laboratory Department",
-            "Pharmacy Department",
-            "Rehabilitation Departmen"});
-            this.comboBoxAppointmentId.Location = new System.Drawing.Point(124, 45);
-            this.comboBoxAppointmentId.Name = "comboBoxAppointmentId";
-            this.comboBoxAppointmentId.Size = new System.Drawing.Size(258, 33);
-            this.comboBoxAppointmentId.TabIndex = 12;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(74, 50);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 23);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Id :";
             // 
             // PatientDetail
             // 

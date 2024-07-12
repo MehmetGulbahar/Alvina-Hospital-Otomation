@@ -27,5 +27,10 @@ namespace hospital_automation_application
         {
             Application.Exit();
         }
+
+        private void DoctorDetailPage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -30,13 +30,7 @@ namespace hospital_automation_application
             {
                 labelNameSurname.Text = reader[0].ToString();
             }
-            reader.Close();
-
-            //Branches table information taking from database 
-            DataTable tableBranches = new DataTable();
-            SqlDataAdapter commandBranches = new SqlDataAdapter("Select branch_id, branch_name From Branches", databaseConnection.connection());
-            commandBranches.Fill(tableBranches);
-            dataGridViewBranches.DataSource = tableBranches;
+            reader.Close();  
 
             // Doctor table information retrieval from database
             DataTable tableDoctors = new DataTable();
@@ -55,8 +49,10 @@ namespace hospital_automation_application
             }
             readerBranch.Close();
 
-           
-
+            DataTable tableBranches = new DataTable();
+            SqlDataAdapter commandBranches = new SqlDataAdapter("Select branch_name From Branches", databaseConnection.connection());
+            commandBranches.Fill(tableBranches);
+            dataGridViewBranches.DataSource = tableBranches;
         }
 
         private void buttonCreate_Click(object sender, EventArgs e)
@@ -103,6 +99,18 @@ namespace hospital_automation_application
         {
             BranchForm branchForm = new BranchForm();
             branchForm.ShowDialog();
+        }
+
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAppointmentList_Click(object sender, EventArgs e)
+        {
+            AppointmentList appointmentList = new AppointmentList();
+            appointmentList.ShowDialog();
+
         }
     }
 }

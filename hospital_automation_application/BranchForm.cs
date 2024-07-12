@@ -46,5 +46,26 @@ namespace hospital_automation_application
             MessageBox.Show("Branch created successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
+
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+            SqlCommand commandUpdateBranch = new SqlCommand("UPDATE Branches SET branch_name=@b1 WHERE branch_id=@b2", databaseConnection.connection());
+            commandUpdateBranch.Parameters.AddWithValue("@b1", textBoxBranchName.Text);
+            commandUpdateBranch.Parameters.AddWithValue("@b2", textBoxBranchId.Text);
+            commandUpdateBranch.ExecuteNonQuery();
+            databaseConnection.connection().Close();
+            MessageBox.Show(textBoxBranchName.Text + " Updated successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            SqlCommand commandDeleteBranch = new SqlCommand("delete from Branches where branch_id = @b1", databaseConnection.connection());
+            commandDeleteBranch.Parameters.AddWithValue("@b1", textBoxBranchId.Text);
+            commandDeleteBranch.ExecuteNonQuery();
+            databaseConnection.connection().Close();
+            MessageBox.Show(textBoxBranchName.Text + " Deleted successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
     }
 }

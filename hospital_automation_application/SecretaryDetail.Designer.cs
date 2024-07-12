@@ -179,6 +179,7 @@
             this.buttonUpdate.TabIndex = 23;
             this.buttonUpdate.Text = "Update";
             this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
             // checkBoxStatus
             // 
@@ -494,6 +495,7 @@
             this.buttonAppointmentList.TabIndex = 27;
             this.buttonAppointmentList.Text = "Appointment List";
             this.buttonAppointmentList.UseVisualStyleBackColor = true;
+            this.buttonAppointmentList.Click += new System.EventHandler(this.buttonAppointmentList_Click);
             // 
             // buttonBranchPanel
             // 
