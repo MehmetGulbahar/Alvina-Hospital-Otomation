@@ -35,7 +35,7 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.labelPatientNameSurname = new System.Windows.Forms.Label();
+            this.labelPatientTcNumber = new System.Windows.Forms.Label();
             this.richTextBoxComplaint = new System.Windows.Forms.RichTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.labelNameSurname = new System.Windows.Forms.Label();
@@ -101,16 +101,18 @@
             // 
             // dataGridView2
             // 
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.Location = new System.Drawing.Point(3, 25);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(784, 631);
             this.dataGridView2.TabIndex = 0;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.labelPatientNameSurname);
+            this.groupBox2.Controls.Add(this.labelPatientTcNumber);
             this.groupBox2.Controls.Add(this.richTextBoxComplaint);
             this.groupBox2.Location = new System.Drawing.Point(66, 312);
             this.groupBox2.Name = "groupBox2";
@@ -119,14 +121,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Appointment Detail";
             // 
-            // labelPatientNameSurname
+            // labelPatientTcNumber
             // 
-            this.labelPatientNameSurname.AutoSize = true;
-            this.labelPatientNameSurname.Location = new System.Drawing.Point(19, 34);
-            this.labelPatientNameSurname.Name = "labelPatientNameSurname";
-            this.labelPatientNameSurname.Size = new System.Drawing.Size(66, 23);
-            this.labelPatientNameSurname.TabIndex = 11;
-            this.labelPatientNameSurname.Text = "--------";
+            this.labelPatientTcNumber.AutoSize = true;
+            this.labelPatientTcNumber.Location = new System.Drawing.Point(19, 34);
+            this.labelPatientTcNumber.Name = "labelPatientTcNumber";
+            this.labelPatientTcNumber.Size = new System.Drawing.Size(66, 23);
+            this.labelPatientTcNumber.TabIndex = 11;
+            this.labelPatientTcNumber.Text = "--------";
             // 
             // richTextBoxComplaint
             // 
@@ -152,7 +154,7 @@
             // labelNameSurname
             // 
             this.labelNameSurname.AutoSize = true;
-            this.labelNameSurname.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNameSurname.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNameSurname.Location = new System.Drawing.Point(228, 106);
             this.labelNameSurname.Name = "labelNameSurname";
             this.labelNameSurname.Size = new System.Drawing.Size(52, 23);
@@ -162,7 +164,7 @@
             // labelIdentificationNumber
             // 
             this.labelIdentificationNumber.AutoSize = true;
-            this.labelIdentificationNumber.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIdentificationNumber.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelIdentificationNumber.Location = new System.Drawing.Point(226, 75);
             this.labelIdentificationNumber.Name = "labelIdentificationNumber";
             this.labelIdentificationNumber.Size = new System.Drawing.Size(120, 23);
@@ -251,11 +253,13 @@
             this.editInformationButton.TabIndex = 0;
             this.editInformationButton.Text = "Edit Information";
             this.editInformationButton.UseVisualStyleBackColor = true;
+            this.editInformationButton.Click += new System.EventHandler(this.editInformationButton_Click);
             // 
             // DoctorDetailPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1384, 761);
             this.Controls.Add(this.groupBox3);
@@ -265,9 +269,12 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.MaximizeBox = false;
             this.Name = "DoctorDetailPage";
-            this.Text = "DoctorDetailPage";
+            this.Text = "Doctor Detail";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DoctorDetailPage_FormClosing);
             this.Load += new System.EventHandler(this.DoctorDetailPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -301,7 +308,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label labelPatientNameSurname;
+        private System.Windows.Forms.Label labelPatientTcNumber;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button editInformationButton;
         private System.Windows.Forms.Button quitButton;

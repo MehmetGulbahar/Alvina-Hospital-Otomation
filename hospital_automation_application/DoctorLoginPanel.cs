@@ -27,10 +27,17 @@ namespace hospital_automation_application
             if (readerDoctor.Read())
             {
                 DoctorDetailPage doctorDetailPage = new DoctorDetailPage();
-                doctorDetailPage.ShowDialog();
+                doctorDetailPage.identificationNumber = maskedTextboxIdentificationNumber.Text;
                 this.Hide();
+                doctorDetailPage.ShowDialog();
+                
             }
             databaseConnection.connection().Close();
+        }
+
+        private void DoctorLoginPanel_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

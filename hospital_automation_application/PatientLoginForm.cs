@@ -46,5 +46,7 @@ namespace hospital_automation_application
             databaseConnection.connection().Close();
 
         }
+
+       
     }
 }

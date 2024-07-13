@@ -36,7 +36,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.comboBoxAppointmentId = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.buttonAppointment = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -54,6 +53,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
+            this.textBoxAppointmentId = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -82,7 +82,7 @@
             // labelNameAndSurname
             // 
             this.labelNameAndSurname.AutoSize = true;
-            this.labelNameAndSurname.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNameAndSurname.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNameAndSurname.Location = new System.Drawing.Point(208, 125);
             this.labelNameAndSurname.Name = "labelNameAndSurname";
             this.labelNameAndSurname.Size = new System.Drawing.Size(118, 23);
@@ -105,7 +105,7 @@
             // labelIdentificationNumber
             // 
             this.labelIdentificationNumber.AutoSize = true;
-            this.labelIdentificationNumber.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIdentificationNumber.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelIdentificationNumber.Location = new System.Drawing.Point(208, 75);
             this.labelIdentificationNumber.Name = "labelIdentificationNumber";
             this.labelIdentificationNumber.Size = new System.Drawing.Size(120, 23);
@@ -136,7 +136,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.comboBoxAppointmentId);
+            this.groupBox2.Controls.Add(this.textBoxAppointmentId);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.buttonAppointment);
             this.groupBox2.Controls.Add(this.label5);
@@ -151,27 +151,6 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Appointment Panel";
-            // 
-            // comboBoxAppointmentId
-            // 
-            this.comboBoxAppointmentId.FormattingEnabled = true;
-            this.comboBoxAppointmentId.Items.AddRange(new object[] {
-            "Emergency Department",
-            "Surgery Department",
-            "Outpatient Department",
-            "Inpatient Department",
-            "Intensive Care Unit (ICU)",
-            "Cardiology Department",
-            "Neurology Department",
-            "Psychiatry Department",
-            "Radiology Department",
-            "Laboratory Department",
-            "Pharmacy Department",
-            "Rehabilitation Departmen"});
-            this.comboBoxAppointmentId.Location = new System.Drawing.Point(124, 45);
-            this.comboBoxAppointmentId.Name = "comboBoxAppointmentId";
-            this.comboBoxAppointmentId.Size = new System.Drawing.Size(258, 33);
-            this.comboBoxAppointmentId.TabIndex = 12;
             // 
             // label8
             // 
@@ -193,6 +172,7 @@
             this.buttonAppointment.TabIndex = 10;
             this.buttonAppointment.Text = "Make an Appointment";
             this.buttonAppointment.UseVisualStyleBackColor = true;
+            this.buttonAppointment.Click += new System.EventHandler(this.buttonAppointment_Click);
             // 
             // label5
             // 
@@ -218,7 +198,7 @@
             this.comboBoxDoctor.FormattingEnabled = true;
             this.comboBoxDoctor.Location = new System.Drawing.Point(123, 128);
             this.comboBoxDoctor.Name = "comboBoxDoctor";
-            this.comboBoxDoctor.Size = new System.Drawing.Size(258, 33);
+            this.comboBoxDoctor.Size = new System.Drawing.Size(259, 33);
             this.comboBoxDoctor.TabIndex = 7;
             this.comboBoxDoctor.SelectedIndexChanged += new System.EventHandler(this.comboBoxDoctor_SelectedIndexChanged);
             // 
@@ -249,9 +229,9 @@
             "Laboratory Department",
             "Pharmacy Department",
             "Rehabilitation Departmen"});
-            this.comboBoxBranch.Location = new System.Drawing.Point(123, 84);
+            this.comboBoxBranch.Location = new System.Drawing.Point(123, 87);
             this.comboBoxBranch.Name = "comboBoxBranch";
-            this.comboBoxBranch.Size = new System.Drawing.Size(258, 33);
+            this.comboBoxBranch.Size = new System.Drawing.Size(259, 33);
             this.comboBoxBranch.TabIndex = 5;
             // 
             // label3
@@ -302,6 +282,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(735, 369);
             this.dataGridView2.TabIndex = 0;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // panel1
             // 
@@ -354,10 +335,18 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "All rights reserved by Alvina Hospital";
             // 
+            // textBoxAppointmentId
+            // 
+            this.textBoxAppointmentId.Location = new System.Drawing.Point(123, 49);
+            this.textBoxAppointmentId.Name = "textBoxAppointmentId";
+            this.textBoxAppointmentId.Size = new System.Drawing.Size(259, 31);
+            this.textBoxAppointmentId.TabIndex = 12;
+            // 
             // PatientDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1384, 756);
             this.Controls.Add(this.panel2);
@@ -367,9 +356,12 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.MaximizeBox = false;
             this.Name = "PatientDetail";
             this.Text = "Patient Detail";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PatientDetail_FormClosing);
             this.Load += new System.EventHandler(this.PatientDetail_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -413,7 +405,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label labelNameAndSurname;
-        private System.Windows.Forms.ComboBox comboBoxAppointmentId;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBoxAppointmentId;
     }
 }

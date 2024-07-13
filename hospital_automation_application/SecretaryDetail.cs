@@ -57,11 +57,13 @@ namespace hospital_automation_application
 
         private void buttonCreate_Click(object sender, EventArgs e)
         {
-            SqlCommand sqlCommand = new SqlCommand("insert into Appointment (appointment_date,appointment_time,appointment_branch,appointment_doctor) values (@a1,@a2,@a3,@a4)", databaseConnection.connection());
+            SqlCommand sqlCommand = new SqlCommand("insert into Appointment (appointment_date,appointment_time,appointment_branch,appointment_doctor,appointment_status,patient_tc) values (@a1,@a2,@a3,@a4,@a5,@a6)", databaseConnection.connection());
             sqlCommand.Parameters.AddWithValue("@a1",maskedTextBoxAppointmentDate.Text);
             sqlCommand.Parameters.AddWithValue("@a2",maskedTextBoxAppointmentTime.Text);
             sqlCommand.Parameters.AddWithValue("@a3", comboBoxBranch.Text);
             sqlCommand.Parameters.AddWithValue("@a4",comboBoxDoctor.Text);
+            sqlCommand.Parameters.AddWithValue("@a5",checkBoxStatus.Checked);
+            sqlCommand.Parameters.AddWithValue("@a6", maskedTextBoxPatientTcNumber.Text);
             sqlCommand.ExecuteNonQuery();
             databaseConnection.connection().Close();
             MessageBox.Show("Appointment created successfully","Information",MessageBoxButtons.OK,MessageBoxIcon.Information);
@@ -103,7 +105,7 @@ namespace hospital_automation_application
 
         private void buttonUpdate_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void buttonAppointmentList_Click(object sender, EventArgs e)
@@ -111,6 +113,17 @@ namespace hospital_automation_application
             AppointmentList appointmentList = new AppointmentList();
             appointmentList.ShowDialog();
 
+        }
+
+        private void buttonQuit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void buttonAnnouncements_Click(object sender, EventArgs e)
+        {
+            AnnouncementsPage announcementsPage = new AnnouncementsPage();
+            announcementsPage.ShowDialog();
         }
     }
 }

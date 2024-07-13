@@ -33,11 +33,13 @@ namespace hospital_automation_application
             }
             databaseConnection.connection().Close();
 
-            //Appointment history 
+            // Appointment history
             DataTable dataTable = new DataTable();
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("Select * From Appointment where patient_tc=" + identityNumber, databaseConnection.connection());
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("Select * From Appointment where patient_tc = @patientTC", databaseConnection.connection());
+            sqlDataAdapter.SelectCommand.Parameters.AddWithValue("@patientTC", identityNumber);
             sqlDataAdapter.Fill(dataTable);
             dataGridView1.DataSource = dataTable;
+
 
             //Branches Information
             SqlCommand sqlCommand1 = new SqlCommand("Select branch_name From Branches", databaseConnection.connection());
@@ -70,7 +72,7 @@ namespace hospital_automation_application
         private void comboBoxDoctor_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataTable tableDoctor = new DataTable();
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("Select * From Appointment where appointment_branch='"+comboBoxBranch.Text+"'",databaseConnection.connection());
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("Select * From Appointment where appointment_branch='"+comboBoxBranch.Text+"'" + " and appointment_doctor='" +comboBoxDoctor.Text + "' and appointment_status=0", databaseConnection.connection());
             sqlDataAdapter.Fill(tableDoctor);
             dataGridView2.DataSource = tableDoctor;
         }
@@ -83,6 +85,31 @@ namespace hospital_automation_application
 
         }
 
-      
+        private void PatientDetail_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void buttonAppointment_Click(object sender, EventArgs e)
+        {
+            SqlCommand commandCreateAppointment = new SqlCommand("update Appointment set  appointment_status=1,patient_tc=@p1,patient_complaint=@p2 where appointment_id=@p3 ", databaseConnection.connection());
+            commandCreateAppointment.Parameters.AddWithValue("@p1", labelIdentificationNumber.Text);
+            commandCreateAppointment.Parameters.AddWithValue("@p2",richTextBoxComplaint.Text);
+            commandCreateAppointment.Parameters.AddWithValue("@p3",textBoxAppointmentId.Text);
+            commandCreateAppointment.ExecuteNonQuery();
+            databaseConnection.connection().Close();
+            MessageBox.Show("Appointment created successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0) 
+            {
+                int chosenIndex = e.RowIndex;
+                textBoxAppointmentId.Text = dataGridView2.Rows[chosenIndex].Cells[0].Value.ToString();
+                comboBoxBranch.Text = dataGridView2.Rows[chosenIndex].Cells[3].Value.ToString();
+            }
+        }
+
     }
 }

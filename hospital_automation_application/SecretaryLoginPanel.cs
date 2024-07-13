@@ -29,8 +29,8 @@ namespace hospital_automation_application
 
                 SecretaryDetail detail = new SecretaryDetail();
                 detail.identificationNumber = maskedTextboxIdentificationNumber.Text;
-                detail.ShowDialog();
                 this.Hide();
+                detail.ShowDialog();
             }
             else
             {

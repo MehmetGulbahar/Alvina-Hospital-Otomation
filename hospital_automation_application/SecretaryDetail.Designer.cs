@@ -36,7 +36,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.buttonCreate = new System.Windows.Forms.Button();
-            this.buttonUpdate = new System.Windows.Forms.Button();
             this.checkBoxStatus = new System.Windows.Forms.CheckBox();
             this.maskedTextBoxPatientTcNumber = new System.Windows.Forms.MaskedTextBox();
             this.comboBoxDoctor = new System.Windows.Forms.ComboBox();
@@ -68,6 +67,8 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridViewDoctors = new System.Windows.Forms.DataGridView();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.buttonAnnouncements = new System.Windows.Forms.Button();
+            this.buttonQuit = new System.Windows.Forms.Button();
             this.buttonAppointmentList = new System.Windows.Forms.Button();
             this.buttonBranchPanel = new System.Windows.Forms.Button();
             this.buttonDoctorPanel = new System.Windows.Forms.Button();
@@ -140,7 +141,6 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.buttonCreate);
-            this.groupBox3.Controls.Add(this.buttonUpdate);
             this.groupBox3.Controls.Add(this.checkBoxStatus);
             this.groupBox3.Controls.Add(this.maskedTextBoxPatientTcNumber);
             this.groupBox3.Controls.Add(this.comboBoxDoctor);
@@ -163,23 +163,13 @@
             // 
             // buttonCreate
             // 
-            this.buttonCreate.Location = new System.Drawing.Point(239, 453);
+            this.buttonCreate.Location = new System.Drawing.Point(194, 413);
             this.buttonCreate.Name = "buttonCreate";
-            this.buttonCreate.Size = new System.Drawing.Size(100, 35);
+            this.buttonCreate.Size = new System.Drawing.Size(145, 35);
             this.buttonCreate.TabIndex = 24;
             this.buttonCreate.Text = "Create";
             this.buttonCreate.UseVisualStyleBackColor = true;
             this.buttonCreate.Click += new System.EventHandler(this.buttonCreate_Click);
-            // 
-            // buttonUpdate
-            // 
-            this.buttonUpdate.Location = new System.Drawing.Point(133, 453);
-            this.buttonUpdate.Name = "buttonUpdate";
-            this.buttonUpdate.Size = new System.Drawing.Size(100, 35);
-            this.buttonUpdate.TabIndex = 23;
-            this.buttonUpdate.Text = "Update";
-            this.buttonUpdate.UseVisualStyleBackColor = true;
-            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
             // checkBoxStatus
             // 
@@ -354,7 +344,7 @@
             // labelNameSurname
             // 
             this.labelNameSurname.AutoSize = true;
-            this.labelNameSurname.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNameSurname.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNameSurname.Location = new System.Drawing.Point(228, 106);
             this.labelNameSurname.Name = "labelNameSurname";
             this.labelNameSurname.Size = new System.Drawing.Size(52, 23);
@@ -364,7 +354,7 @@
             // labelIdentificationNumber
             // 
             this.labelIdentificationNumber.AutoSize = true;
-            this.labelIdentificationNumber.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIdentificationNumber.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelIdentificationNumber.Location = new System.Drawing.Point(226, 75);
             this.labelIdentificationNumber.Name = "labelIdentificationNumber";
             this.labelIdentificationNumber.Size = new System.Drawing.Size(120, 23);
@@ -477,6 +467,8 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.buttonAnnouncements);
+            this.groupBox6.Controls.Add(this.buttonQuit);
             this.groupBox6.Controls.Add(this.buttonAppointmentList);
             this.groupBox6.Controls.Add(this.buttonBranchPanel);
             this.groupBox6.Controls.Add(this.buttonDoctorPanel);
@@ -487,21 +479,41 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Quick Access";
             // 
+            // buttonAnnouncements
+            // 
+            this.buttonAnnouncements.Location = new System.Drawing.Point(515, 46);
+            this.buttonAnnouncements.Name = "buttonAnnouncements";
+            this.buttonAnnouncements.Size = new System.Drawing.Size(161, 35);
+            this.buttonAnnouncements.TabIndex = 29;
+            this.buttonAnnouncements.Text = "Announcements";
+            this.buttonAnnouncements.UseVisualStyleBackColor = true;
+            this.buttonAnnouncements.Click += new System.EventHandler(this.buttonAnnouncements_Click);
+            // 
+            // buttonQuit
+            // 
+            this.buttonQuit.Location = new System.Drawing.Point(685, 46);
+            this.buttonQuit.Name = "buttonQuit";
+            this.buttonQuit.Size = new System.Drawing.Size(161, 35);
+            this.buttonQuit.TabIndex = 28;
+            this.buttonQuit.Text = "Quit";
+            this.buttonQuit.UseVisualStyleBackColor = true;
+            this.buttonQuit.Click += new System.EventHandler(this.buttonQuit_Click);
+            // 
             // buttonAppointmentList
             // 
-            this.buttonAppointmentList.Location = new System.Drawing.Point(548, 47);
+            this.buttonAppointmentList.Location = new System.Drawing.Point(346, 46);
             this.buttonAppointmentList.Name = "buttonAppointmentList";
-            this.buttonAppointmentList.Size = new System.Drawing.Size(183, 35);
+            this.buttonAppointmentList.Size = new System.Drawing.Size(161, 35);
             this.buttonAppointmentList.TabIndex = 27;
-            this.buttonAppointmentList.Text = "Appointment List";
+            this.buttonAppointmentList.Text = "Appointments";
             this.buttonAppointmentList.UseVisualStyleBackColor = true;
             this.buttonAppointmentList.Click += new System.EventHandler(this.buttonAppointmentList_Click);
             // 
             // buttonBranchPanel
             // 
-            this.buttonBranchPanel.Location = new System.Drawing.Point(334, 47);
+            this.buttonBranchPanel.Location = new System.Drawing.Point(176, 46);
             this.buttonBranchPanel.Name = "buttonBranchPanel";
-            this.buttonBranchPanel.Size = new System.Drawing.Size(183, 35);
+            this.buttonBranchPanel.Size = new System.Drawing.Size(161, 35);
             this.buttonBranchPanel.TabIndex = 26;
             this.buttonBranchPanel.Text = "Branch Panel";
             this.buttonBranchPanel.UseVisualStyleBackColor = true;
@@ -509,9 +521,9 @@
             // 
             // buttonDoctorPanel
             // 
-            this.buttonDoctorPanel.Location = new System.Drawing.Point(115, 47);
+            this.buttonDoctorPanel.Location = new System.Drawing.Point(8, 46);
             this.buttonDoctorPanel.Name = "buttonDoctorPanel";
-            this.buttonDoctorPanel.Size = new System.Drawing.Size(183, 35);
+            this.buttonDoctorPanel.Size = new System.Drawing.Size(161, 35);
             this.buttonDoctorPanel.TabIndex = 25;
             this.buttonDoctorPanel.Text = "Doctor Panel";
             this.buttonDoctorPanel.UseVisualStyleBackColor = true;
@@ -592,7 +604,6 @@
         private System.Windows.Forms.MaskedTextBox maskedTextBoxAppointmentDate;
         private System.Windows.Forms.TextBox patientIdTextbox;
         private System.Windows.Forms.Button buttonCreate;
-        private System.Windows.Forms.Button buttonUpdate;
         private System.Windows.Forms.CheckBox checkBoxStatus;
         private System.Windows.Forms.MaskedTextBox maskedTextBoxPatientTcNumber;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -607,5 +618,7 @@
         private System.Windows.Forms.Button buttonAppointmentList;
         private System.Windows.Forms.Button buttonBranchPanel;
         private System.Windows.Forms.Button buttonDoctorPanel;
+        private System.Windows.Forms.Button buttonQuit;
+        private System.Windows.Forms.Button buttonAnnouncements;
     }
 }
