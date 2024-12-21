@@ -72,7 +72,7 @@ namespace hospital_automation_application
         private void comboBoxDoctor_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataTable tableDoctor = new DataTable();
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("Select * From Appointment where appointment_branch='"+comboBoxBranch.Text+"'" + " and appointment_doctor='" +comboBoxDoctor.Text + "' and appointment_status=0", databaseConnection.connection());
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("Select * From Appointment where appointment_branch='" + comboBoxBranch.Text + "'" + " and appointment_doctor='" + comboBoxDoctor.Text + "' and appointment_status=0", databaseConnection.connection());
             sqlDataAdapter.Fill(tableDoctor);
             dataGridView2.DataSource = tableDoctor;
         }
@@ -94,8 +94,8 @@ namespace hospital_automation_application
         {
             SqlCommand commandCreateAppointment = new SqlCommand("update Appointment set  appointment_status=1,patient_tc=@p1,patient_complaint=@p2 where appointment_id=@p3 ", databaseConnection.connection());
             commandCreateAppointment.Parameters.AddWithValue("@p1", labelIdentificationNumber.Text);
-            commandCreateAppointment.Parameters.AddWithValue("@p2",richTextBoxComplaint.Text);
-            commandCreateAppointment.Parameters.AddWithValue("@p3",textBoxAppointmentId.Text);
+            commandCreateAppointment.Parameters.AddWithValue("@p2", richTextBoxComplaint.Text);
+            commandCreateAppointment.Parameters.AddWithValue("@p3", textBoxAppointmentId.Text);
             commandCreateAppointment.ExecuteNonQuery();
             databaseConnection.connection().Close();
             MessageBox.Show("Appointment created successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -103,7 +103,7 @@ namespace hospital_automation_application
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0) 
+            if (e.RowIndex >= 0)
             {
                 int chosenIndex = e.RowIndex;
                 textBoxAppointmentId.Text = dataGridView2.Rows[chosenIndex].Cells[0].Value.ToString();

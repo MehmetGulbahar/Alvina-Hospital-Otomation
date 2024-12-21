@@ -11,7 +11,7 @@ namespace hospital_automation_application
     {
         public SqlConnection connection() { 
         
-          SqlConnection sqlConnection = new SqlConnection("Data Source=MEHMET\\SQLEXPRESS;Initial Catalog=HospitalProject;Integrated Security=True;TrustServerCertificate=True");
+          SqlConnection sqlConnection = new SqlConnection("*******BLANK*****");
           sqlConnection.Open();
           return sqlConnection;
         }
